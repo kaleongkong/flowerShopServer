@@ -1,0 +1,26 @@
+development:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: myapp_development
+  pool: 5
+  username: root
+  password: 
+
+test:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: myapp_test
+  pool: 5
+  username: root
+  password: 
+
+production:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: myapp_production
+  pool: 5
+  username: root
+  password: 
