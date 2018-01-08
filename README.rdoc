@@ -29,3 +29,6 @@ Please feel free to use a different markup language if you do not plan to run
 
 Note:
 ../../../../usr/local/opt/mysql/support-files/mysql.server start
+
+- if bundle install fails on json, do 'sudo yum install ruby-devel'
+- if bundle install fails on mysql, do 'sudo yum install mysql-devel'
