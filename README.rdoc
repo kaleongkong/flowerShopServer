@@ -28,7 +28,10 @@ Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
 
 Note:
+For security group, https://stackoverflow.com/questions/10253484/cant-access-site-on-ec2-instance-via-public-ip
+ssh -i ~/ec2keys/first_key.pem ec2-user@ec2-54-164-122-180.compute-1.amazonaws.com
 ../../../../usr/local/opt/mysql/support-files/mysql.server start
+To start nginx: sudo /etc/init.d/nginx start
 
 - if bundle install fails on json, do 'sudo yum install ruby-devel'
 - if bundle install fails on mysql, do 'sudo yum install mysql-devel'
