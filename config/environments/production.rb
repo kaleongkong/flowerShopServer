@@ -68,6 +68,7 @@ Rails.application.configure do
   config.action_mailer.smtp_settings = {
    :address              => "smtp.gmail.com",
    :port                 => 587,
+   :domain               => 'https://flowershop-server.herokuapp.com',
    :user_name            => 'joyrealestate.sup@gmail.com',
    :password             => 'joyrealestate',
    :authentication       => "plain",
