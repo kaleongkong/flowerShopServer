@@ -25,6 +25,4 @@ production:
   # username: root
   # password: 
   <<: *default
-  database: ENV['DATABASE_URL']
-  username: ENV['DATABASE_USERNAME']
-  password: ENV['DATABASE_PASSWORDs']
+  database: myapp_production
